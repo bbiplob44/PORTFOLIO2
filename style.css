@@ -1,3 +1,67 @@
-.color {
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.blue {
     color: blue;
+}
+
+.container {
+    display: flex;
+    margin: 4%;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 3%;
+}
+
+.half-width img {
+    width: 80%;
+    padding-top: 8%;
+
+}
+
+.link-button {
+    background-image: linear-gradient(salmon, tomato);
+    text-decoration: none;
+    padding: 5px 12px 5px 12px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#experience-content1 {
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    margin: 5%;
+    padding: 4%;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 8px solid;
+}
+
+#experience-content2 {
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    margin: 5%;
+    padding: 4%;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    border-left: 8px solid;
+
+}
+
+p {
+    text-align: justify;
 }
